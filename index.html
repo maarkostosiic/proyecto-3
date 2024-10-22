@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; 
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0; 
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        iframe {
+            width: 70vw; 
+            height: 40vw; 
+            max-width: 960px;
+            max-height: 540px; 
+            border: none;
+        }
+        .description-box {
+            width: 70vw;
+            max-width: 960px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Video de Presentación</h1>
+    <div class="container">
+        <iframe src="https://drive.google.com/file/d/1gbgg4UG-D67VNNPL-ohZ1ZHcSXbiuGhN/preview" allow="autoplay" allowfullscreen></iframe>
+        <div class="description-box">
+            <h2>Descripción del Video</h2>
+            <p>Este video muestra una presentación de una aplicacion web de una calculadora que tambien guarda el registro de operaciones realizadas</p>
+          
+        </div>
+    </div>
+</body>
+</html>
